@@ -1,0 +1,17 @@
+This is a group project. You may form your own group with size not bigger than 10 people.  
+Download the data set in the file 'aadt.txt' and use it to fit a model.  You can open this file by notepad to see the data. 
+This data are about traffic monitoring. One of the most important traffic monitoring variables is the average annual daily traffic (aadt) for a section of road or highway. It is defined as the average, over a year, of the number of vehicles that pass through a particular section of a road each day.
+Consider the first column  (aadt) of the data to be the response, and 
+ X1: population of county in which road section in located--the second column of data; 
+  X2: number of lanes in road section-- the third  column of data ; 
+  X3: width of road section (in feet)-the fourth column of data; 
+  Control (X4): two-category quality variable indicating whether or not there is control of access to road section            
+(1=access control; 2=no access control) . In this case, you may define X4 to be 1 if there is  access control and to be zero if there is no access control. 
+ Use the first five columns of the data to fit a  model.  Follow all the 5 steps discussed in the reference pdf document (you may refer to the model checking part discussed in part 4 of chapter 2 )   to fit a multiple regression model to the data.
+You should note that the steam.txt was only used in the reference pdf document for illustration.
+You may also use some other steps such as transformation of the variables which you think are necessary.
+For the prediction please use x1=50000  x2=3  x3=60, x4=2 .  Write the R codes and their outputs. 
+  No need to do the parts about the confidence region and bonferroni limit.
+
+It is due on 18th Nov.  It will contribute 10% to the final. 
+Please submit a softcopy of your report  either in pdf or word by NTU learn, which includes R codes, the scatter plot, the fitted model, residual plots and provide some explanations for the fitted model.
